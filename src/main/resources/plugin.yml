@@ -1,0 +1,26 @@
+name: WordReplacer
+version: '${project.version}'
+main: fr.sixpixels.wordreplacer.Main
+description: Replaces words in chat with other words or phrases, which can be given a chance of being selected
+api-version: '1.20'
+author: Jonathan Foucher
+
+commands:
+  wordreplacer:
+    description: Main word replacer command
+    usage: /<command> reload
+    permission: wordreplacer.admin
+
+permissions:
+  wordreplacer.admin:
+    description: Allows you to use all commands of /wordreplacer
+    default: op
+  wordreplacer.reload:
+    description: Allows you to reload wordreplacer configuration
+    default: op
+  wordreplacer.*:
+    description: Allows you to use all commands of /wordreplacer
+    default: op
+    children:
+      wordreplacer.admin: true
+      wordreplacer.reload: true

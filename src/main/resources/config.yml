@@ -1,0 +1,55 @@
+replacements:
+  slt:
+    replacements:
+      - string: "Bien le bonjour à vous"
+        chance: 10
+      - string: "Salut"
+        chance: 1
+      - string: "slt"
+        chance: 1
+  wesh:
+    replacements:
+      - string: "Panda"
+        chance: 10
+      - string: "Non"
+        chance: 1
+      - string: "wesh"
+        chance: 1
+  tkt:
+    replacements:
+      - string: "no worries"
+        chance: 1
+      - string: "arrête un peu de stresser"
+        chance: 1
+      - string: "Veuillez conserver votre calme"
+        chance: 8
+      - string: "tkt"
+        chance: 1
+  stp:
+    replacements:
+      - string: "ça serait très aimable de votre part"
+        chance: 10
+      - string: "et dépêche-toi !"
+        chance: 3
+      - string: "viiiiiite !!!"
+        chance: 1
+  svp:
+    replacements:
+      - string: "avec mes remerciements"
+        chance: 10
+      - string: "et plus vite que ça"
+        chance: 1
+  "pas con":
+    replacements:
+      - string: "la meilleure idée du monde"
+        chance: 10
+      - string: "très bête"
+        chance: 1
+      - string: "stupide"
+        chance: 1
+  con:
+    replacements:
+      - string: "intelligent"
+        chance: 10
+      - string: "débile"
+        chance: 1
